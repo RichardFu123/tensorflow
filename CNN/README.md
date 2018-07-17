@@ -1,4 +1,4 @@
-#用途
+# 用途
 * 个人自用于：
 	* 拍摄用于图像分类的样本
 	* 训练TensorFlow网络
@@ -7,7 +7,7 @@
 	* 导出pb文件
 	* 用pb文件进行predict
 
-##Notice
+## Notice
 * 大部分参数位于config.py
 * 拍摄图像和predict在CapAndPred.py
 * 制作pb文件在freeze_model.py
@@ -32,3 +32,11 @@
 	* data_aug用于增广训练样本
 	* net用于存放网络模型
 	* train_net用于存放训练网络主程序
+* 目前网络：
+	* alexnet
+	* cifarnet
+	* inception resnet v2
+	* inception v4
+	* mobilenet v2
+	* resnet v2
+	* vgg
